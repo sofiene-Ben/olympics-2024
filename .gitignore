@@ -1,0 +1,24 @@
+# Ignorer tous les fichiers .log
+*.log
+
+# Ignorer tous les fichiers compilés Python
+*.pyc
+__pycache__/
+
+# Ignorer les dossiers de l’environnement virtuel Python
+venv/
+env/
+
+# Ignorer les fichiers de configuration et secrets
+.env
+.flaskenv
+.env.local
+
+# Ignorer les dossiers de build de React
+/build
+
+# Ignorer les fichiers de déploiement
+.DS_Store
+.vscode/
+.idea/
+.node_modules/
